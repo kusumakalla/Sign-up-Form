@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(32, 28, 28);
+
+}
+
+.sidebar {
+    background-image: url(./images/halie-west-25xggax4bSA-unsplash.jpg);
+    background-size: cover;
+    min-height: 90vh;
+    background-position: center;
+    border: solid black;
+    width: 20vw;
+}
+
+.mainform {
+    border: solid black;
+    width: 40vw;
+    height: auto;
+}
