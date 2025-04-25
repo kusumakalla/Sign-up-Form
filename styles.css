@@ -1,7 +1,12 @@
+@font-face {
+    font-family: odin-font;
+    src: url(./fonts/Norse-Bold.otf);
+}
+
 body {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: centre;
     background-color: rgb(32, 28, 28);
 
 }
@@ -11,7 +16,6 @@ body {
     background-size: cover;
     min-height: 90vh;
     background-position: center;
-    border: solid black;
     width: 20vw;
 }
 
@@ -19,4 +23,24 @@ body {
     border: solid black;
     width: 40vw;
     height: auto;
+}
+
+.logo {
+    position: relative;
+    top: 10em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(27, 25, 25, 0.6);
+    height: 100px;
+}
+
+.logo img {
+    height: 5em;
+}
+
+.logo p {
+    font-size: 4em;
+    color: beige;
+    font-family: odin-font, sans-serif;
 }
