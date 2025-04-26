@@ -1,3 +1,5 @@
+/* sidebar styles */
+
 @font-face {
     font-family: odin-font;
     src: url(./fonts/Norse-Bold.otf);
@@ -19,11 +21,7 @@ body {
     width: 20vw;
 }
 
-.mainform {
-    border: solid black;
-    width: 40vw;
-    height: auto;
-}
+
 
 .logo {
     position: relative;
@@ -43,4 +41,18 @@ body {
     font-size: 4em;
     color: beige;
     font-family: odin-font, sans-serif;
+}
+
+/* mainform styles*/
+
+.mainform {
+    background-color: white;
+    border: solid black;
+    width: 40vw;
+    height: auto;
+}
+
+label,
+input {
+    display: block;
 }
