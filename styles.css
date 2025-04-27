@@ -95,7 +95,14 @@ input:focus {
     border-radius: 5px;
 }
 
-input:invalid {
+input:focus:valid {
+    outline: none;
+    border: 1px solid #1858d6;
+    border-radius: 5px;
+}
+
+input:focus:invalid {
+    outline: none;
     border: 1px solid #e71010;
     border-radius: 5px;
 }
