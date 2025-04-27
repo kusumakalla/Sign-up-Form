@@ -84,6 +84,20 @@ label {
 
 input {
     margin-bottom: 10px;
+    border: 1px solid #E5E7EB;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+input:focus {
+    border: 1px solid #1858d6;
+    outline: none;
+    border-radius: 5px;
+}
+
+input:invalid {
+    border: 1px solid #e71010;
+    border-radius: 5px;
 }
 
 .fields {
@@ -100,4 +114,27 @@ button,
 .footer {
     margin-top: 20px;
     margin-left: 25px;
+}
+
+button[type="submit"] {
+    font-family: sans-serif;
+    font-weight: 700;
+    padding: 8px 30px;
+    color: beige;
+    font-size: 12px;
+    background-color: #596D48;
+    border: 2px solid #596D48;
+    border-radius: 5px;
+}
+
+.footer {
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 700px;
+}
+
+.footer a {
+    color: #596D48;
+    text-decoration: none;
+    font-weight: 750;
 }
